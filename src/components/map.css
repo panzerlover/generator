@@ -1,0 +1,6 @@
+.map-row{
+    display: grid;
+    /* grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px; */
+    grid-template-columns: repeat(10, 10px);
+
+}

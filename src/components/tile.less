@@ -1,0 +1,39 @@
+.blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+
+.tile{
+    width: 10px;
+    height: 10px;
+}
+
+.green{
+    .tile;
+    background-color: green;
+}
+.green:hover{
+  .blink_me;
+}
+
+.blue{
+  .tile;
+  background-color: blue;
+}
+.blue:hover{
+  .blink_me;
+}
+
+.grey{
+  .tile;
+  background-color: darkslategrey;
+}
+
+.green:hover{
+  .blink_me;
+}
